@@ -1,0 +1,40 @@
+# Бинарники и результаты сборки
+/myapp
+/cmd/server/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Тестовые бинарники
+*.test
+*.out
+
+# Файлы БД (SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+# Переменные окружения и секреты
+.env
+.env.local
+*.pem
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Go-специфичное
+vendor/
+go.work
+go.work.sum
+
+# Логи
+*.log
